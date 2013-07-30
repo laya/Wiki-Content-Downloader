@@ -4,7 +4,7 @@ import re
 import urllib
 import json
 
-fields = ["nam", "image", "image_size", "border", "alt", "caption", "director", "producer", "writer", "screenplay", "story", "based_on", "narrator", "starring", "music", "cinematography", "editing", "studio", "distributor", "released", "runtime", "country", "language", "budget", "gross"]
+fields = ["name", "image", "image_size", "border", "alt", "caption", "director", "producer", "writer", "screenplay", "story", "based_on", "narrator", "starring", "music", "cinematography", "editing", "studio", "distributor", "released", "runtime", "country", "language", "budget", "gross"]
 
 base = "http://en.wikipedia.org/w/api.php?action=parse&format=json&prop=wikitext&page="
 
